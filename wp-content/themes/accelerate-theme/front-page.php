@@ -13,7 +13,6 @@
  */
 
 get_header(); ?>
-
 <section class="home-page">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="homepage-hero">
